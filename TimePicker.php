@@ -25,7 +25,6 @@ use yii\helpers\Html;
  */
 class TimePicker extends \kartik\base\InputWidget
 {
-
     /**
      * @var string the size of the input - 'lg', 'md', 'sm', 'xs'
      */

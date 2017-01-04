@@ -1,10 +1,10 @@
 <?php
 
 /**
- * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2014 - 2016
+ * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2014 - 2017
  * @package yii2-widgets
  * @subpackage yii2-widget-timepicker
- * @version 1.0.1
+ * @version 1.0.2
  */
 
 namespace kartik\time;
@@ -12,7 +12,7 @@ namespace kartik\time;
 use kartik\base\AssetBundle;
 
 /**
- * Asset bundle for DateTimePicker Widget
+ * Asset bundle for TimePicker Widget
  *
  * @author Kartik Visweswaran <kartikv2@gmail.com>
  * @since 1.0

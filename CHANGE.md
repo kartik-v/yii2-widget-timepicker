@@ -1,6 +1,14 @@
 Change Log: `yii2-widget-timepicker`
 ====================================
 
+## Version 1.0.2
+
+**Date:** 04-Jan-2017
+
+- (enh #12): Prevent timepicker plugin triggering change on init.
+- Add github contribution and issue/PR logging templates.
+- Add branch alias for dev-master latest release.
+
 ## Version 1.0.1
 
 **Date:** 12-Jan-2016

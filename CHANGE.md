@@ -1,6 +1,12 @@
 Change Log: `yii2-widget-timepicker`
 ====================================
 
+## Version 1.0.3
+
+**Date:** 08-Jan-2017
+
+- (enh #12): Correct timepicker change initialization.
+
 ## Version 1.0.2
 
 **Date:** 04-Jan-2017

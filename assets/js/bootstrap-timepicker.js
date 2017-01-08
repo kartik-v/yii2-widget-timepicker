@@ -561,7 +561,7 @@
                     this.second = seconds;
                     this.meridian = meridian;
 
-                    this.update(false);
+                    this.update(true);
 
                 } else if (defaultTime === false) {
                     this.hour = 0;
@@ -688,7 +688,7 @@
             this.meridian = this.meridian === 'AM' ? 'PM' : 'AM';
             this.update();
         },
-        update: function (trigChange) {
+        update: function (skipChange) {
             this.$element.trigger({
                 'type': 'changeTime.timepicker',
                 'time': {
@@ -700,13 +700,13 @@
                 }
             });
 
-            this.updateElement(trigChange);
+            this.updateElement(skipChange);
             this.updateWidget();
         },
-        updateElement: function (trigChange) {
+        updateElement: function (skipChange) {
             var $el = this.$element;
-            $el.val(this.getTime())
-            if (trigChange) {
+            $el.val(this.getTime());
+            if (!skipChange) {
                 $el.change();
             }
         },

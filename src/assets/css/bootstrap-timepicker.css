@@ -1,7 +1,7 @@
 /*!
  * Timepicker Component for Twitter Bootstrap
  *
- * Improvements by: Kartik Visweswaran, Krajee.com, 2014 - 2016
+ * Improvements by: Kartik Visweswaran, Krajee.com, 2014 - 2018
  *
  * Copyright 2013 Joris de Wit
  *
@@ -14,6 +14,10 @@
     position: relative;
 }
 
+.bootstrap-timepicker-widget {
+    min-width: 19rem;
+}
+
 .bootstrap-timepicker.pull-right .bootstrap-timepicker-widget.dropdown-menu {
     left: auto;
     right: 0;
@@ -21,16 +25,12 @@
 
 .bootstrap-timepicker.pull-right .bootstrap-timepicker-widget.dropdown-menu:before {
     left: auto;
-    right: 12px;
+    right: 0.75rem;
 }
 
 .bootstrap-timepicker.pull-right .bootstrap-timepicker-widget.dropdown-menu:after {
     left: auto;
-    right: 13px;
-}
-
-.bootstrap-timepicker .input-group-addon {
-    cursor: pointer;
+    right: 0.8125rem;
 }
 
 .bootstrap-timepicker .disabled-addon {
@@ -38,26 +38,41 @@
 }
 
 .bootstrap-timepicker .inline-addon {
-    display: inline-block;
-    line-height: 42px;
     position: absolute;
-    right: 10px;
+    display: inline-block;
+    top: 0.675rem;
+    right: 0.625rem;
+    line-height: 1.5;
     z-index: 3;
-    margin: -37px 0 0 0;
 }
 
 .bootstrap-timepicker .inline-addon-lg {
-    margin: -42px 0 0 0;
-    font-size: 18px;
+    font-size: 1.875rem;
 }
 
 .bootstrap-timepicker .inline-addon-sm {
-    margin: -35px 0 0 0;
-    font-size: 12px;
+    font-size: 1.2rem;
+}
+
+.bootstrap-timepicker4 .inline-addon {
+    top: 0.5rem;
+}
+
+.bootstrap-timepicker3 .inline-addon-lg {
+    top: 1.05rem;
+}
+
+.bootstrap-timepicker4 .inline-addon-lg {
+    font-size: 1.25rem;
+}
+
+.bootstrap-timepicker4 .inline-addon-sm {
+    top: 0.375rem;
+    font-size: 0.85rem;
 }
 
 .bootstrap-timepicker-widget.dropdown-menu {
-    padding: 2px 3px 2px 2px;
+    padding: 0.125rem 0.1875rem 0.125rem 0.125rem;
 }
 
 .bootstrap-timepicker-widget.dropdown-menu.open {
@@ -65,35 +80,35 @@
 }
 
 .bootstrap-timepicker-widget.dropdown-menu:before {
-    border-bottom: 7px solid rgba(0, 0, 0, 0.2);
-    border-left: 7px solid transparent;
-    border-right: 7px solid transparent;
+    border-bottom: 0.4375rem solid rgba(0, 0, 0, 0.2);
+    border-left: 0.4375rem solid transparent;
+    border-right: 0.4375rem solid transparent;
     content: "";
     display: inline-block;
-    left: 9px;
+    left: 0.5625rem;
     position: absolute;
-    top: -7px;
+    top: -0.4375rem;
 }
 
 .bootstrap-timepicker-widget.dropdown-menu:after {
-    border-bottom: 6px solid #FFFFFF;
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
+    border-bottom: 0.375rem solid #FFFFFF;
+    border-left: 0.375rem solid transparent;
+    border-right: 0.375rem solid transparent;
     content: "";
     display: inline-block;
-    left: 10px;
+    left: 0.625rem;
     position: absolute;
-    top: -6px;
+    top: -0.375rem;
 }
 
 .bootstrap-timepicker-widget a.btn,
 .bootstrap-timepicker-widget input {
-    border-radius: 4px !important;
+    border-radius: 0.25rem !important;
 }
 
 .bootstrap-timepicker input {
-    border-top-left-radius: 4px !important;
-    border-bottom-left-radius: 4px !important;
+    border-top-left-radius: 0.25rem !important;
+    border-bottom-left-radius: 0.25rem !important;
 }
 
 .bootstrap-timepicker-widget table {
@@ -103,9 +118,9 @@
 
 .bootstrap-timepicker-widget table td {
     text-align: center;
-    height: 30px;
+    height: 1.875rem;
     margin: 0;
-    padding: 2px;
+    padding: 0.125rem;
 }
 
 .bootstrap-timepicker .separator {
@@ -114,7 +129,7 @@
 }
 
 .bootstrap-timepicker-widget table td:not(.separator) {
-    min-width: 30px;
+    min-width: 1.875rem;
 }
 
 .bootstrap-timepicker-widget table td span {
@@ -122,11 +137,11 @@
 }
 
 .bootstrap-timepicker-widget table td a {
-    border: 1px transparent solid;
+    border: 0.0625rem transparent solid;
     width: 100%;
     display: inline-block;
     margin: 0;
-    padding: 2px 0;
+    padding: 0.125rem 0;
     outline: 0;
     color: #333;
 }
@@ -134,24 +149,27 @@
 .bootstrap-timepicker-widget table td a:hover {
     text-decoration: none;
     background-color: #eee;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    border-radius: 0.25rem;
     border-color: #ddd;
 }
 
 .bootstrap-timepicker-widget table td a i {
-    margin-top: 2px;
+    margin-top: 0.125rem;
 }
 
 .bootstrap-timepicker-widget table td input {
-    width: 25px;
     margin: 0;
     text-align: center;
 }
 
 .bootstrap-timepicker-widget .modal-content {
-    padding: 4px;
+    padding: 0.25rem;
+}
+
+.bootstrap-timepicker .picker {
+    cursor: pointer;
 }
 
 @media (min-width: 767px) {

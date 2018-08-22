@@ -1,7 +1,7 @@
 /*!
  * Timepicker Component for Twitter Bootstrap
  * 
- * Improvements by: Kartik Visweswaran, Krajee.com, 2014 - 2017
+ * Improvements by: Kartik Visweswaran, Krajee.com, 2014 - 2018
  *
  * Copyright 2013 Joris de Wit
  *
@@ -280,11 +280,11 @@
                 '<td><a href="#" data-action="incrementMinute"><i class="' + this.upArrowStyle + '"></i></a></td>' +
                 (this.showSeconds ?
                     '<td class="separator">&nbsp;</td>' +
-                        '<td><a href="#" data-action="incrementSecond"><i class="' + this.upArrowStyle + '"></i></a></td>'
+                    '<td><a href="#" data-action="incrementSecond"><i class="' + this.upArrowStyle + '"></i></a></td>'
                     : '') +
                 (this.showMeridian ?
                     '<td class="separator">&nbsp;</td>' +
-                        '<td class="meridian-column"><a href="#" data-action="toggleMeridian"><i class="' + this.upArrowStyle + '"></i></a></td>'
+                    '<td class="meridian-column"><a href="#" data-action="toggleMeridian"><i class="' + this.upArrowStyle + '"></i></a></td>'
                     : '') +
                 '</tr>' +
                 '<tr>' +
@@ -293,11 +293,11 @@
                 '<td>' + minuteTemplate + '</td> ' +
                 (this.showSeconds ?
                     '<td class="separator">:</td>' +
-                        '<td>' + secondTemplate + '</td>'
+                    '<td>' + secondTemplate + '</td>'
                     : '') +
                 (this.showMeridian ?
                     '<td class="separator">&nbsp;</td>' +
-                        '<td>' + meridianTemplate + '</td>'
+                    '<td>' + meridianTemplate + '</td>'
                     : '') +
                 '</tr>' +
                 '<tr>' +
@@ -306,11 +306,11 @@
                 '<td><a href="#" data-action="decrementMinute"><i class="' + this.downArrowStyle + '"></i></a></td>' +
                 (this.showSeconds ?
                     '<td class="separator">&nbsp;</td>' +
-                        '<td><a href="#" data-action="decrementSecond"><i class="' + this.downArrowStyle + '"></i></a></td>'
+                    '<td><a href="#" data-action="decrementSecond"><i class="' + this.downArrowStyle + '"></i></a></td>'
                     : '') +
                 (this.showMeridian ?
                     '<td class="separator">&nbsp;</td>' +
-                        '<td><a href="#" data-action="toggleMeridian"><i class="' + this.downArrowStyle + '"></i></a></td>'
+                    '<td><a href="#" data-action="toggleMeridian"><i class="' + this.downArrowStyle + '"></i></a></td>'
                     : '') +
                 '</tr>' +
                 '</table>';

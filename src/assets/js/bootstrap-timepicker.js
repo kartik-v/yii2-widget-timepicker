@@ -1,6 +1,6 @@
 /*!
  * Timepicker Component for Twitter Bootstrap
- * 
+ *
  * Improvements by: Kartik Visweswaran, Krajee.com, 2014 - 2018
  *
  * Copyright 2013 Joris de Wit
@@ -493,7 +493,7 @@
             }
             if (this.hour === 23) {
                 this.hour = 0;
-
+                this.update();
                 return;
             }
             this.hour++;

@@ -1,6 +1,12 @@
 Change Log: `yii2-widget-timepicker`
 ====================================
 
+## Version 1.0.5
+
+**Date:** 28-Oct-2021
+
+- Enhancements to support Bootstrap v5.x.
+
 ## Version 1.0.4
 
 **Date:** 09-Oct-2018
